@@ -14,3 +14,14 @@ The verilog simulation output looks like this
 
 Now in the lemmings game , there is a mechanics of falling, just like in the real world. If the ground surface is removed from the feet of the lemmings it will fall and scream out "aaah!!!!" . When it finds the ground again after falling for a certain time it will again start walking again. Lemmings do not change directions if they are bump into left right obstacles midflight. We will represent no ground as logic 0 and logic 1 for when ground reappears again. The left and right motion will be same as before. We will also represent the "aaah!!!!" scream of the falling lemming as an output state.
 
+https://github.com/Smartmayukh/Lemmings-using-Verilog/blob/main/Design_Part2.v
+
+The verilog simulation output looks like this 
+
+![image](https://user-images.githubusercontent.com/64318469/176694916-a8b2ee52-3203-4812-8bfd-c00d147169a7.png)
+
+Now apart from movement mechanics, Lemmings also can do certain special tasks. One of them is digging. Now its pretty evident that a Lemming can dig only when it is on ground and not in a falling state. Various interesting scenarios may arise when we introduce this new mechanics. The lemmings can fall after digging a hole , then after sometime may find flat land and again start digging or walking. A lemming that was walking left, can start digging, falls and again starts walking left. There can be many scenarios possible for combination of all the states. 
+
+
+
+So now we will incorporate this digging mechanics into our Lemmings code
