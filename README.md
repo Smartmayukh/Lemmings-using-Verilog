@@ -1,5 +1,8 @@
 # Lemmings-using-Verilog
 
+![0_NRzcPsVE6QdseIC4](https://user-images.githubusercontent.com/64318469/176696240-f5e3dcba-c015-49dd-b097-a62cf5a59eef.gif)
+
+
 Firstly let us design the movement mechanics. The game is 2D so the motion can only be along a particular axis in a plane. Let us focus on the horizontal motion of the lemmings for the time being.  Now a lemming can walk either left or right. While walking right if it faces an obstacle it will turn left, and in the same way while walking left if it faces an obstacle it will turn right. Now we will consider that lemmings walk left when they are first dropped in.
 
 
@@ -44,3 +47,5 @@ The verilog simulation output looks like this
 You can learn more about this in my website 
 
 https://sites.google.com/view/lemmings-verilog-mayukhmali/home
+
+
