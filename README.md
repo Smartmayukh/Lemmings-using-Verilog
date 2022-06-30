@@ -35,4 +35,12 @@ The verilog simulation output looks like this
 
 Now, Lemmings cannot survive jump for large heights. Here we will consider that the lemming will be alive if they reach the ground by the 20 clock cycle or else they will splatter.Thus we are introducing a new state called "splat" which defines this phenomenon of explosion of the lemming when it falls from a large height. 
 
+https://github.com/Smartmayukh/Lemmings-using-Verilog/blob/main/Design_Part4.v
 
+The verilog simulation output looks like this 
+
+![image](https://user-images.githubusercontent.com/64318469/176695741-1607c516-cf60-424d-9f1e-70efff5066ac.png)
+
+You can learn more about this in my website 
+
+https://sites.google.com/view/lemmings-verilog-mayukhmali/home
