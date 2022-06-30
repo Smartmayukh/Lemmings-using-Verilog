@@ -27,3 +27,12 @@ Now apart from movement mechanics, Lemmings also can do certain special tasks. O
 So now we will incorporate this digging mechanics into our Lemmings code
 
 https://github.com/Smartmayukh/Lemmings-using-Verilog/blob/main/Design_Part3.v
+
+The verilog simulation output looks like this 
+
+![image](https://user-images.githubusercontent.com/64318469/176695330-f321aca6-1b8b-4b23-a21e-7842ec2f6bf9.png)
+
+
+Now, Lemmings cannot survive jump for large heights. Here we will consider that the lemming will be alive if they reach the ground by the 20 clock cycle or else they will splatter.Thus we are introducing a new state called "splat" which defines this phenomenon of explosion of the lemming when it falls from a large height. 
+
+
