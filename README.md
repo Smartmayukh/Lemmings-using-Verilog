@@ -25,3 +25,5 @@ Now apart from movement mechanics, Lemmings also can do certain special tasks. O
 
 
 So now we will incorporate this digging mechanics into our Lemmings code
+
+https://github.com/Smartmayukh/Lemmings-using-Verilog/blob/main/Design_Part3.v
